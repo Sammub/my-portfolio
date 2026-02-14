@@ -1,0 +1,89 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.certificates img{
+   width: 400px;
+   height: 300px;
+   border: 5px solid grey;
+   border-radius: 10px;
+   gap: 40px;
+}
+.certificates{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.certificates-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    padding-top: 37px;
+}
+.certificates-2 img{
+    width: 400px;
+    height: 300px;
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+p{
+    color: rgb(108, 201, 202);
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+h1{
+    color: bisque;
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+}
+h2{
+    color: rgb(199, 235, 72);
+    text-align: center;
+    font-size: 35px;
+}
+h4{
+    color: rgb(60, 70, 204);
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+h3{
+    color: antiquewhite;
+    padding-bottom: 30px;
+    font-size: 25px;
+    padding-top: 8px;
+}
+
+h5{
+    color: orange;
+    text-align: center;
+    font-size: 40px;
+}
+h6{
+    color: purple;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 7px;
+    padding-top: 20px;
+}
+.conclusion{
+    color: red;
+    text-align: center;
+    padding-top: 25px;
+}
+.conclusion-2{
+    color: red;
+    text-align: center;
+}
+.cert:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
